@@ -23,9 +23,18 @@ public class Deck {
         }
     }
 
+    private void swapCards(int a,int b) {
+        Card temp = deck[a];
+        deck[a] = deck[b];
+        deck[b] = temp;
+    }
 
-
-
-
+    public void shuffleDeck() {
+        Random randomInt = new Random();
+        for(int i =0; i<deck.length; i++) {
+            int j = randomInt.nextInt(52);
+            swapCards(i,j);
+        }
+    }
 
 }

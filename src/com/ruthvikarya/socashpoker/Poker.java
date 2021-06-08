@@ -17,6 +17,8 @@ public class Poker {
             // initialize all 4 players
             players[i] = new Player();
         }
+        deck.shuffleDeck();
+        deck.printDeck();
     }
 
 

@@ -22,10 +22,11 @@ public class Main {
 
                 // a game of poker ends with multiple rounds played. so,
                 // create a construct of best of 5 rounds for the party game.
-        int round = 1;
+
+        int round = 1; // todo : lets make it so that we can play multiple rounds
         // start a game of poker
         Poker game = new Poker();
-        // todo: game.shuffleCards();
+
         // todo: game.dealCards();
         // todo:  game.printResult();
 
