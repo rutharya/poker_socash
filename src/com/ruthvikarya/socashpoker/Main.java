@@ -22,7 +22,8 @@ public class Main {
 
                 // a game of poker ends with multiple rounds played. so,
                 // create a construct of best of 5 rounds for the party game.
-
+        Deck myDeck = new Deck();
+        myDeck.printDeck();
 
 
     }
